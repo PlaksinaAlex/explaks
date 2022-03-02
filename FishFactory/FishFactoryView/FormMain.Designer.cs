@@ -39,6 +39,8 @@ namespace FishFactoryView
 			this.справочникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.компонентыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.изделияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.складыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.пополнениеСкладаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -137,6 +139,19 @@ namespace FishFactoryView
 			this.изделияToolStripMenuItem.Text = "Изделия";
 			this.изделияToolStripMenuItem.Click += new System.EventHandler(this.изделияToolStripMenuItem_Click);
 			// 
+			// складыToolStripMenuItem
+			// 
+			this.складыToolStripMenuItem.Name = "складыToolStripMenuItem";
+			this.складыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.складыToolStripMenuItem.Text = "Склады";
+		   this.складыToolStripMenuItem.Click += new System.EventHandler(this.складыToolStripMenuItem_Click);
+			// 
+			// пополнениеСкладаToolStripMenuItem
+			// 
+			this.пополнениеСкладаToolStripMenuItem.Name = "пополнениеСкладаToolStripMenuItem";
+			this.пополнениеСкладаToolStripMenuItem.Size = new System.Drawing.Size(129, 20);
+			this.пополнениеСкладаToolStripMenuItem.Text = "Пополнение склада";
+		    this.пополнениеСкладаToolStripMenuItem.Click += new System.EventHandler(this.пополнениеСкладаToolStripMenuItem_Click);
 			// FormMain
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -173,5 +188,7 @@ namespace FishFactoryView
 		private System.Windows.Forms.ToolStripMenuItem справочникиToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem компонентыToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem изделияToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem складыToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem пополнениеСкладаToolStripMenuItem;
 	}
 }
